@@ -1,0 +1,82 @@
+<?php
+
+/*
+ * The first part handles application logic.
+ */
+$server   = $_SERVER['SERVER_ADDR'];
+
+echo "<!DOCTYPE HTML>\n"; 
+echo "\n"; 
+echo "<html>\n"; 
+echo "	<head>\n"; 
+echo "		<title> </title>\n"; 
+echo "		<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n"; 
+echo "		<meta name=\"description\" content=\"\" />\n"; 
+echo "		<meta name=\"keywords\" content=\"\" />\n"; 
+echo "		<!--[if lte IE 8]><script src=\"css/ie/html5shiv.js\"></script><![endif]-->\n"; 
+echo "		<script src=\"js/jquery.min.js\"></script>\n"; 
+echo "		<script src=\"js/skel.min.js\"></script>\n"; 
+echo "		<script src=\"js/skel-layers.min.js\"></script>\n"; 
+echo "		<script src=\"js/init.js\"></script>\n"; 
+echo "		<noscript>\n"; 
+echo "			<link rel=\"stylesheet\" href=\"css/skel.css\" />\n"; 
+echo "			<link rel=\"stylesheet\" href=\"css/style.css\" />\n"; 
+echo "			<link rel=\"stylesheet\" href=\"css/style-xlarge.css\" />\n"; 
+echo "		</noscript>\n"; 
+echo "		<!--[if lte IE 9]><link rel=\"stylesheet\" href=\"css/ie/v9.css\" /><![endif]-->\n"; 
+echo "		<!--[if lte IE 8]><link rel=\"stylesheet\" href=\"css/ie/v8.css\" /><![endif]-->\n"; 
+echo "	</head>\n"; 
+echo "	<body class=\"landing\">\n"; 
+echo "\n"; 
+echo "		<!-- Header -->\n"; 
+echo "			<header id=\"header\" class=\"alt skel-layers-fixed\">\n"; 
+echo "				<h1><a href=\"index.html\"> Simple Web Server using EC2 <span> - by pliniob @ AWS</span></a></h1>\n"; 
+echo "				<nav id=\"nav\">\n"; 
+echo "					<ul>\n"; 
+echo "						<li><a href=\"index.php\">Home</a></li>\n"; 
+echo "						<li><a href=\"https://aws.amazon.com/blogs/aws/\">AWS Blog</a></li>\n"; 
+echo "						<li><a href=\"https://aws.amazon.com/about-aws/global-infrastructure/\">AWS Locations</a></li>\n"; 
+echo "					</ul>\n"; 
+echo "				</nav>\n"; 
+echo "			</header>\n"; 
+echo "\n"; 
+echo "		<!-- Banner -->\n"; 
+echo "			<section id=\"banner\">\n"; 
+echo "				<div class=\"inner\">\n"; 
+echo "					<h2>$server</h2>\n"; 
+echo "					<p>This is the real IP address of the server.</p>\n"; 
+echo "					<ul class=\"actions\">\n"; 
+echo "						<li><a href=\"https://aws.amazon.com/\" class=\"button big scrolly\">Learn More about AWS</a></li>\n"; 
+echo "					</ul>\n"; 
+echo "				</div>\n"; 
+echo "			</section>\n"; 
+echo "			\n"; 
+echo "		<!-- CTA -->\n"; 
+echo "			<section id=\"cta\" class=\"wrapper style3\">\n"; 
+echo "				<h2>Start using AWS services now!</h2>\n"; 
+echo "				<ul class=\"actions\">\n"; 
+echo "					<li><a href=\"https://portal.aws.amazon.com/gp/aws/developer/registration/index.html\" class=\"button big\">Get Started for Free</a></li>\n"; 
+echo "				</ul>\n"; 
+echo "			</section>\n"; 
+echo "			\n"; 
+echo "		<!-- Footer -->\n"; 
+echo "			<footer id=\"footer\">\n"; 
+echo "				<ul class=\"icons\">\n"; 
+echo "					<li><a href=\"https://twitter.com/awscloud?nc1=f_so_tw\" class=\"icon fa-twitter\"><span class=\"label\">Twitter</span></a></li>\n"; 
+echo "					<li><a href=\"https://www.facebook.com/amazonwebservices?nc1=f_so_fb\" class=\"icon fa-facebook\"><span class=\"label\">Facebook</span></a></li>\n"; 
+echo "					<li><a href=\"https://aws.amazon.com/contact-us/?nc1=f_m\" class=\"icon fa-envelope\"><span class=\"label\">Envelope</span></a></li>\n"; 
+echo "				</ul>\n"; 
+echo "				<ul class=\"menu\">\n"; 
+echo "					<li><a href=\"https://aws.amazon.com/faqs/?nc1=f_dr\">FAQ</a></li>\n"; 
+echo "					<li><a href=\"https://aws.amazon.com/legal/?nc1=f_cc\">Legal</a></li>\n"; 
+echo "					<li><a href=\"https://aws.amazon.com/privacy/?nc1=f_pr\">Privacy</a></li>\n"; 
+echo "					<li><a href=\"https://aws.amazon.com/contact-us/?nc1=f_m\">Contact</a></li>\n"; 
+echo "				</ul>\n"; 
+echo "				<span class=\"copyright\">\n"; 
+echo "					&copy; Copyright. All rights reserved. Design by <a href=\"http://www.html5webtemplates.co.uk\">Responsive Web Templates</a>\n"; 
+echo "				</span>\n"; 
+echo "			</footer>\n"; 
+echo "\n"; 
+echo "	</body>\n"; 
+echo "</html>\n";
+?>
